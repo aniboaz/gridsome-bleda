@@ -11,7 +11,7 @@ module.exports = {
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
       plugins: [
         ['gridsome-plugin-remark-shiki', {
-          theme: 'min-light'
+          theme: 'material-theme-palenight'
         }]
       ]
     }
@@ -35,11 +35,11 @@ module.exports = {
         },
       },
     },
-    {
-      use: '@gridsome/plugin-google-analytics',
-      options: {
-        id: 'UA-135446199-1',
-      },
+    //{
+      //use: '@gridsome/plugin-google-analytics',
+      //options: {
+        //id: 'UA-135446199-1',
+      //},
     },
     {
       use: '@gridsome/plugin-sitemap',
