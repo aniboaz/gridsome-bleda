@@ -1,3 +1,3 @@
 [build]
   publish = "dist"
-  command = "Gridsome build"
+  command = "gridsome build"
